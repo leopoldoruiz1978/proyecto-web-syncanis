@@ -1,0 +1,112 @@
+/* ================= ESTILOS GENERALES ================= */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* ================= HEADER ================= */
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* ================= MENÚ ================= */
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* ================= CONTENEDOR ================= */
+.contenedor {
+    display: flex;
+    padding: 20px;
+}
+
+/* ================= SIDEBAR ================= */
+.sidebar {
+    width: 25%;
+    background-color: #ddd;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* ================= CONTENIDO ================= */
+.contenido {
+    width: 75%;
+    padding: 15px;
+}
+
+/* ================= CAJAS ================= */
+.caja {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* ================= IMÁGENES ================= */
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* ================= FORMULARIOS ================= */
+.form-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+.form-box {
+    background: white;
+    padding: 25px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.form-box input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+.form-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-box button:hover {
+    background-color: #0056b3;
+}
+
+/* ================= FOOTER ================= */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
